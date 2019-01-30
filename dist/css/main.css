@@ -1,0 +1,108 @@
+*, *:after, *:before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+body {
+	font-family: "Arial", sans-serif; 
+}
+
+body h2 {
+	color: rgb(62,67,74); 
+}
+
+body h3 {
+	color: rgb(126,132,142);
+}
+
+
+header a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.preview-block {
+	color: #fff;
+	background-color: rgba(0,0,0, .8);
+	background-image: radial-gradient(circle at center, transparent, #000);
+	box-shadow: inset 0 93px 250px 0 #000, inset 0 -93px 250px 0 #000;
+}
+
+header {
+	padding-top: 40px; 
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-list li {
+	margin-right: 20px; 
+}
+
+.nav-list li:last-child {
+	margin-right: 0;
+}
+
+.nav-list a {
+	font-size: 15px;
+}
+
+.nav-list a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.main-block {
+	padding: 140px 0 160px;
+}
+
+.main-block h3 {
+	max-width: 490px;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 2;
+	margin-top: 10px;
+}
+
+h1 {
+	font-size: 40px;
+	max-width: 490px;
+}
+
+.main-block-buttons {
+	margin-top: 35px;
+	display: flex;
+}
+
+.main-block-buttons a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 170px;
+	height: 50px;
+	color: #fff;
+	border: 1px solid;
+	border-radius: 6px;
+	margin-right: 10px;
+	transition: .2s;
+}
+
+.main-block-buttons a:hover {
+	background-color: #2095bc;
+	border-color: #2095bc;
+}
+
+.main-block-buttons a:last-child {
+	margin-right: 0;
+}
